@@ -6,6 +6,7 @@ import About from './About'
 import Solutions from './Solutions'
 import Sustainability from './Sustainability'
 import Footer from './Footer'
+import Videos from './Videos'
 function App() {
   return (
     <div className="App">
@@ -118,6 +119,7 @@ function App() {
       <Sustainability />
       <Contact />
       <RenewableLaw/>
+      <Videos/>
       <Footer />
     </div>
   )

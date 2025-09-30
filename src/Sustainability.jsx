@@ -39,13 +39,35 @@ const Sustainability = () => {
           </div>
 
           <div className="relative animate-fadeInRight">
-            <div className="relative group">
+            {/* Imagen principal grande */}
+            <div className="relative group mb-6">
               <div className="absolute -inset-4 bg-gradient-to-r from-green-400 to-emerald-600 rounded-3xl blur-lg opacity-30 group-hover:opacity-50 transition-opacity"></div>
               <img 
-                src="https://images.unsplash.com/photo-1466611653911-95081537e5b7?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80" 
+                src="primera.webp" 
                 alt="Sustentabilidad" 
-                className="relative rounded-3xl shadow-2xl group-hover:shadow-3xl transition-all duration-500"
+                className="relative rounded-3xl shadow-2xl group-hover:shadow-3xl transition-all duration-500 w-full h-80 object-cover"
               />
+            </div>
+            
+            {/* Grid de dos imágenes pequeñas debajo */}
+            <div className="grid grid-cols-2 gap-4">
+              <div className="relative group">
+                <div className="absolute -inset-2 bg-gradient-to-r from-blue-400 to-cyan-600 rounded-xl blur-md opacity-30 group-hover:opacity-50 transition-opacity"></div>
+                <img 
+                  src="parquesolar1.webp" 
+                  alt="Parque solar 1" 
+                  className="relative rounded-xl shadow-lg group-hover:shadow-xl transition-all duration-500 w-full h-48 object-cover"
+                />
+              </div>
+              
+              <div className="relative group">
+                <div className="absolute -inset-2 bg-gradient-to-r from-amber-400 to-orange-600 rounded-xl blur-md opacity-30 group-hover:opacity-50 transition-opacity"></div>
+                <img 
+                  src="parquesolar2.webp" 
+                  alt="Parque solar 2" 
+                  className="relative rounded-xl shadow-lg group-hover:shadow-xl transition-all duration-500 w-full h-48 object-cover"
+                />
+              </div>
             </div>
             
             <div className="absolute -top-8 -right-8 bg-white/90 backdrop-blur-md p-8 rounded-2xl shadow-2xl border border-green-100 animate-float">
@@ -61,4 +83,5 @@ const Sustainability = () => {
     </section>
   )
 }
+
 export default Sustainability
