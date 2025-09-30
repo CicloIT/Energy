@@ -7,7 +7,7 @@ const Videos = () => {
     <section className="max-w-7xl mx-auto m-5 p-6">
       {/* Título */}
       <h2 className="text-2xl md:text-3xl font-bold text-gray-800 mb-8 text-center">
-         Videos Educativos
+         Las Energías renovables son el futuro 
       </h2>
 
       {/* Grid */}
