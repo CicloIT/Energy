@@ -67,7 +67,7 @@ const RenewableLaw = () => {
           ))}
         </div>
 
-        <div className="bg-white rounded-3xl p-12 shadow-2xl border border-gray-100 relative overflow-hidden">
+        <div className="bg-white rounded-3xl p-12 shadow-2xl border border-gray-100 relative overflow-hidden mb-2">
           <div className="absolute top-0 left-0 w-full h-2 bg-gradient-to-r from-green-500 via-blue-500 to-purple-500"></div>
           
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
